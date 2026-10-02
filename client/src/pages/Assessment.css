@@ -1,0 +1,45 @@
+.webcam-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.webcam-section video {
+  width: 280px !important;
+  height: 190px !important;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #22c55e !important;
+  background: #000;
+}
+
+.camera-status {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #22c55e;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background: #22c55e;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.violation-warning {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 15px;
+  padding: 10px 15px;
+  background: #3b1d1d;
+  color: #ff6b6b;
+  border: 1px solid #ff4d4d;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+}
